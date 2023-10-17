@@ -1,0 +1,7 @@
+  
+image: adoptopenjdk/openjdk8
+vscode:
+  extensions: 
+    - taintbench.TB-Viewer@0.0.3
+tasks:
+  - command: open src/main/java/com/example/chathook/InjectUtils.java
